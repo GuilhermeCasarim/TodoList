@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Fonte-->
+    <script src="https://kit.fontawesome.com/6eba800f66.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Olá, mundo!</title>
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center mt-5">
+      <div class="todoList bg-secondary p-5 rounded">
+        <h1 class="display-4 h3 mb-4 text-center">Lista Todo</h1>
+        <div class="adicionar">
+          <form class="add-form">
+            <h1 class="h3 mb-3">Adicione a sua tarefa</h1>
+            <div class="input-group">
+              <input class="form-control" type="text" name="" id="tarefa" placeholder="Qual a sua tarefa?">
+              <div class="input-group-append">
+                <button id="btn-add" class="btn btn-outline-light">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="pesquisar-filtrar d-flex mt-4">
+          <div class="pesquisar mr-auto">
+            <form class="search-form">
+              <h1 class="h3">Pesquisar</h1>
+              <div class="input-group">
+                <input class="form-control" type="text" name="" id="">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-light">
+                  <i class="fa-solid fa-delete-left"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="filtrar">
+            <h1 class="h3">Filtrar</h1>
+            <select class="form-control" name="" id="">
+              <option value="">Todos</option>
+              <option value="">Feitos</option>
+              <option value="">A fazer</option>
+            </select>
+          </div>
+        </div>
+        <form class="edit-form form-inline hide">
+            <h1 class="h3 mr-3 mt-3">Editar:</h1>
+            <div class="input-group">
+              <input class="form-control" type="text" name="" id="input-edit">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-light done-edit">
+                    <i class="fa-solid fa-check-double"></i>
+                  </button>
+                </div>
+            </div>
+        </form>
+        <div class="tasks mt-4 rounded">
+          <!-- <div class="task ready">
+            <h3 class="">O que estou fazendo hoje?</h3>
+              <button class="done btn btn-outline-light">
+                <i class="fa-solid fa-check"></i>
+              </button>
+              <button class="edit btn btn-outline-light">
+                <i class="fa-solid fa-pen"></i>
+              </button>
+              <button class="remove btn btn-outline-light">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

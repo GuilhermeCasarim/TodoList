@@ -1,0 +1,77 @@
+input{
+    box-shadow: none!important;
+}
+
+input:focus{
+    box-shadow: none!important;
+}
+
+html, body{
+    height: 100%;
+}
+
+.todoList{
+    width: 500px;
+}
+
+h3{
+    font-size: 1.1em;
+    margin-right: auto;
+}
+
+.tasks{
+    background-image: linear-gradient(to right, #894CED, #BE4CED);
+}
+
+.task{
+    padding: 10px;
+    display: flex;
+}
+
+.task button{
+    font-size: .8em;
+    margin: 0 3px;
+}
+
+.task h3{
+    margin-top: 7px;
+}
+
+.ready{
+    background-image: linear-gradient(to right, #BA9BED, #275DF0);
+}
+
+.ready h3{
+    text-decoration: line-through;
+}
+
+.hide{
+    display: none;
+}
+
+/* /// Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+   
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+
